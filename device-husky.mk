@@ -548,3 +548,5 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
     device/google/shusky/bluetooth/audio_set_configurations.json:$(TARGET_COPY_OUT_VENDOR)/etc/aidl/le_audio/aidl_audio_set_configurations.json
+
+PRODUCT_PACKAGES += fir-proximity-feature.xml
