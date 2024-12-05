@@ -195,4 +195,6 @@
     <item name="wifi.controller.tx">550</item>
     <!-- Operating voltage for wifi radio in mV.-->
     <item name="wifi.controller.voltage">3850</item>
+     <!-- Battery Capacity in mAh -->
+    <item name="battery.capacity">4575</item>
 </device>
