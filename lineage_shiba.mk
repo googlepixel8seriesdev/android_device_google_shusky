@@ -8,6 +8,12 @@
 TARGET_DISABLE_EPPE := true
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Matrixx
+MATRIXX_BUILD_TYPE := Official
+MATRIXX_CHIPSET := Tensor G3
+MATRIXX_BATTERY := 4575mAh
+MATRIXX_DISPLAY := 1080x2400
+
 # Inherit device configuration
 DEVICE_CODENAME := shiba
 DEVICE_PATH := device/google/shusky
